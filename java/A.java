@@ -13,8 +13,11 @@ class A {
     }
 
     public static void main(String a[]) {
-        A aa = new A(); 
+        A aa = new A();
+         
         aa.display(10); 
+        A.b = 25;  //OVERRIDE
+        System.out.println("STATIC:" +A.b); 
     }
 }
 
