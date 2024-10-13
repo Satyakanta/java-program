@@ -1,4 +1,4 @@
 # java-program
-Git - Github tutorial
+Git - Github Demo
 <BR>
-(SATYAKANTA PATRA)
+- by Satya
