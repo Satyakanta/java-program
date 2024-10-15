@@ -6,16 +6,16 @@ class A{
     Scanner sc = new Scanner(System.in);
     int n;
     void loop(){
-        int rev =0;
+        int fac =1;
      System.out.println("Enter the number: ");
      n = sc.nextInt();
      do{
-        rev = (rev * 10) + n % 10;
-        n = n/10;
+        fac = fac * n;
+        n--;
 
      }while(n>0);
 
-     System.out.println("your reverse value : " + rev);
+     System.out.println("factorial : " + fac);
 
 }
 }
