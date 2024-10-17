@@ -17,6 +17,7 @@ public class array {
  */
 class A {
     Scanner sc = new Scanner(System.in);
+    int sum =0;
 
     void input(){
         
@@ -25,7 +26,7 @@ class A {
 
         int[] a = new int[n];
         for(int i=0;i<n;i++){
-            System.out.println("enter the value " + i );
+            System.out.println("enter the value " + i +" :" );
             a[i] = sc.nextInt();
             
         }
@@ -33,8 +34,20 @@ class A {
         for (int i = 0; i<n; i++) {
             
             System.out.print(a[i] + " ");
+            System.out.println(" ");
             
         }
+        System.out.println("sum of array element");
+        for (int i = 0; i < n; i++) {
+            sum = sum + a[i];
+            
+            }
+            System.out.print(sum + " ");
+            System.out.println(" ");
+
+
+
+        
 
 
 
