@@ -1,5 +1,5 @@
 // Title: Simple Addition Program in Java using this keyword  (remove confusion between local and instance and constructor called itself using this)
-//call to this must be first statement in constructor
+//
 import java.util.*;
 
 public class thi {
